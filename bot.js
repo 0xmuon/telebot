@@ -18,7 +18,7 @@ bot.start((ctx) => {
 
 bot.help((ctx) => {
   ctx.reply(
-    'You can use the following commands:\n/start - Start the bot\n/welp - Get help\n/echo - Echo back your message\n/profile - Display your profile photo\n/days - See how long you have been using this bot.'
+    '/start - Start the bot\n/welp - Get help\n/echo - Echo back your message\n/profile - Display your profile photo\n/days - See how long you have been using this bot.'
   );
 });
 
